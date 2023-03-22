@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/72e0919d32.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Swift | Services</title>
+  </head>
+  <body>
+    <div id="modal">
+      <div onclick="closeModal()" class="modal-overlay"></div>
+      <div class="modal-box" id="modal-box">
+        <i onclick="closeModal()" class="fa-solid fa-xmark" id="modal-icon"></i>
+        <div class="modal-txt" id="land">
+          <h2>Garden landscaping</h2>
+          <p>
+            Garden landscaping is the ideal way to craft an attractive space to
+            grow plants that give you a beautiful environment and design a
+            practical layout that allows you to use your garden how you want.
+            Take a look at some of our favourite ways to get that garden into
+            shape this summer
+          </p>
+
+          <a href="contact.html">
+            <button class="main-btn mb modal-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="modal-txt" id="roof">
+          <h2>Roof Cleaning</h2>
+          <p>
+            Roof cleaning is the process of removing algae,mold, mildew, lichen
+            and moss from roofs. Also cleaning oxidation on metal roofs.
+            Cleaning can extend the duration ofccc a roof's ability to function.
+            Algae and other types of build-up often form on the north and west
+            parts of roofs that are shaded or receive less sun, and can reduce a
+            roof's life expectancy. The presence of soot, dirt, or biomass can
+            affect how much sunlight is absorbed by a roof and thus the amount
+            of heat a building absorbs.
+          </p>
+          <a href="contact.html">
+            <button class="main-btn mb modal-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="modal-txt" id="drive">
+          <h2>Driveway Cleaning</h2>
+          <p>
+            Driveway washing services are suitable for many driveway surfaces
+            including: Tarmacadam driveway cleaning Imprinted concrete driveway
+            cleaning Cobblelock brick driveway cleaning Block Paving driveway
+            cleaning Monoblock driveway cleaning.
+          </p>
+          <a href="contact.html">
+            <button class="main-btn mb modal-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="modal-txt" id="gutter">
+          <h2>Gutter Cleaning</h2>
+          <p>
+            Gutter Cleaning. If your gutters have started overflowing it’s time
+            for a clean. We can unblock everything from your gutters including:
+            moss, leaves, silt and general debris. Anything removed can either
+            be disposed of in your compost bin or we can remove it from your
+            premises for you. It’s best to get your gutters cleaned at least
+            once a year – a popular time for our clients is during the big
+            spring clean to get rid of the winter’s debris.
+          </p>
+          <a href="contact.html">
+            <button class="main-btn mb modal-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="modal-txt" id="grass">
+          <h2>Rolled Grass</h2>
+          <p>
+            Rolled Grass. Roll out grass can offer an amazing looking lawn
+            quickly and effectively without having to wait years and dedicate
+            time and effort to filling in all the bare patches. The garden grass
+            is installed in a short space of time, transforming your garden.
+            With the proper maintenance, your garden can stay looking wonderful
+            for years after you have installed the rollout grass.
+          </p>
+          <a href="contact.html">
+            <button class="main-btn mb modal-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="modal-txt" id="tree">
+          <h2>Tree Surgeon</h2>
+          <p>
+            Tree Surgeon. We provide all types of tree surveys, including
+            Arboricultural Impact Assessments and Tree Constraints Plan. Do you
+            require tree removal but are scared of unprofessional companies
+            damaging your property? Heritage Tree Care Ltd. are fully qualified,
+            fully insured and experienced in all of the removal methods
+            explained below.
+          </p>
+          <a href="contact.html">
+            <button class="main-btn mb modal-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="modal-txt" id="pcv">
+          <h2>PVC Cleaning</h2>
+          <p>
+            We offer a PVC cleaning service to homes and businesses throughout
+            the Causeway Coast & Glens Borough. Removing dirt and grime from
+            your home's PVC can really brighten up your property and improve
+            curb appeal.
+          </p>
+          <a href="contact.html">
+            <button class="main-btn mb modal-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="modal-txt" id="house">
+          <h2>House Cleaning</h2>
+          <p>
+            House wash down. Deep cleaning involves a thorough scrubbing of all
+            surfaces, even hard-to-reach areas. Everything in your house that a
+            stool can reach will be hand-wiped. Aside from the in-depth
+            approach, it promotes general sanitation and livability.
+          </p>
+          <a href="contact.html">
+            <button class="main-btn mb modal-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="modal-txt" id="block">
+          <h2>Blockpaving Service</h2>
+          <p>
+            Blockpaving Resand. Restore your block paved driveway are that it is
+            important to maintain your block paving on a regular basis, as
+            without regular cleaning, driveways can become dirty and damp
+            weather can attract algae, moss, lichen and weeds to grow on your
+            driveway blocks paving and slabs and in the joints, in turn this can
+            cause the block paving and other areas of the driveway to become
+            cracked, sink or raised as a result. Our services include block
+            paving cleaning, re-sanding and sealing.
+          </p>
+          <a href="contact.html">
+            <button class="main-btn mb modal-btn">Contact Us</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ui sidebar inverted right vertical menu">
+      <a href="index.html"><img class="logo-menu" src="./media/4.png" /></a>
+      <a class="item" href="index.html">Home</a>
+      <a class="item" href="about.html">About</a>
+      <a class="item" href="work.html">Work</a>
+      <a class="active item" href="services.html">Services</a>
+      <a class="item" href="feedback.html">Testimonials</a>
+      <a class="item" href="contact.html">Contact</a>
+      <a class="menu-item-call" href="tel:0851404957"
+        ><button class="phone-menu">Call Us <i class="phone icon"></i></button
+      ></a>
+    </div>
+    <div class="pusher">
+      <div class="top-nav">
+        <a href="index.html"
+          ><img class="logo" alt="gardening-logo" src="./media/4.png"
+        /></a>
+        <div class="menu-top">
+          <a class="menu-item" href="index.html">Home</a>
+          <a class="menu-item" href="about.html">About</a>
+          <a class="menu-item" href="work.html">Work</a>
+          <a class="menu-item active" href="services.html">Services</a>
+          <a class="menu-item" href="feedback.html">Testimonials</a>
+          <a class="menu-item" href="contact.html">Contact</a>
+          <a class="menu-item-call" href="tel:0851404957"
+            ><button onclick="" class="phone-menu nav-call-btn">
+              Call Us
+              <span class="iphone"><i class="phone icon"></i></span></button
+          ></a>
+        </div>
+        <button
+          class="mobile-menu-btn"
+          onclick=" $('.ui.sidebar').sidebar('toggle')"
+        >
+          <i class="bars icon"></i>
+        </button>
+      </div>
+      <!-- Site content !-->
+
+      <div class="about-banner">
+        <div class="work-overlay"></div>
+        <h2 class="work-banner-header">Services</h2>
+      </div>
+
+      <div class="services-main">
+        <div class="container1">
+          <div class="si">
+            <div class="so"></div>
+            <img class="service-img" src="media/landscapingN.jpg" />
+          </div>
+          <div class="text">
+            <h2 class="sh mt">Landscaping</h2>
+            Garden landscaping is the ideal way to craft an attractive space to
+            grow plants that give you a beautiful environment and design a
+            practical layout that allows you to use your garden how you want.
+            <button onclick="showModal('land')" class="main-btn sv-btn">
+              Learn More
+            </button>
+          </div>
+          <div class="service-name">
+            <a href="#land"><h2>Landscaping</h2></a>
+          </div>
+        </div>
+
+        <div class="container1">
+          <div class="si">
+            <div class="so"></div>
+            <img class="service-img" src="media2/r1.jpeg " />
+          </div>
+
+          <div class="text">
+            <h2 class="sh">Roof Cleaning</h2>
+            Roof cleaning is the process of removing algae,mold, mildew, lichen
+            and moss from roofs. Also cleaning oxidation on metal roofs.
+            <button onclick="showModal('roof')" class="main-btn sv-btn sv-sm">
+              Learn More
+            </button>
+          </div>
+          <div class="service-name">
+            <a href="#roof"><h2>Roof Cleaning</h2></a>
+          </div>
+        </div>
+
+        <div class="container1">
+          <div class="si">
+            <div class="so"></div>
+            <img class="service-img" src="media2/dw.jpeg" />
+          </div>
+
+          <div class="text">
+            <h2 class="sh">Driveway Cleaning</h2>
+            Driveway washing services are suitable for many driveway surfaces
+            including: Tarmacadam driveway cleaning Imprinted concrete driveway
+            cleaning and much more.
+            <button onclick="showModal('drive')" class="main-btn sv-btn">
+              Learn More
+            </button>
+          </div>
+          <div class="service-name">
+            <a href="#driveway"><h2 class="sh-out">Driveway Cleaning</h2></a>
+          </div>
+        </div>
+
+        <div class="container1">
+          <div class="si">
+            <div class="so"></div>
+            <img class="service-img" src="media2/gt.jpg" />
+          </div>
+
+          <div class="text">
+            <h2 class="sh">Gutter Cleaning</h2>
+            If your gutters have started overflowing it’s time for a clean. We
+            can unblock everything from your gutters.
+            <button onclick="showModal('gutter')" class="main-btn sv-btn sv-sm">
+              Learn More
+            </button>
+          </div>
+          <div class="service-name">
+            <a href="#gutter"><h2>Gutter Cleaning</h2></a>
+          </div>
+        </div>
+
+        <div class="container1">
+          <div class="si">
+            <div class="so"></div>
+            <img class="service-img" src="media2/rg.jpeg" />
+          </div>
+
+          <div class="text">
+            <h2 class="sh">Rolled Grass</h2>
+            Roll out grass can offer an amazing looking lawn quickly and
+            effectively without having to wait years and dedicate time and
+            effort to filling in all the bare patches.
+            <button onclick="showModal('grass')" class="main-btn sv-btn">
+              Learn More
+            </button>
+          </div>
+          <div class="service-name">
+            <a href="#roll"><h2>Rolled Grass</h2></a>
+          </div>
+        </div>
+
+        <div class="container1">
+          <div class="si">
+            <div class="so"></div>
+            <img class="service-img" src="media2/tt.jpeg" />
+          </div>
+
+          <div class="text">
+            <h2 class="sh">Tree Surgeon</h2>
+            We provide all types of tree surveys, including Arboricultural
+            Impact Assessments and Tree Constraints Plan.
+            <button onclick="showModal('tree')" class="main-btn sv-btn  sv-sm">
+              Learn More
+            </button>
+          </div>
+          <div class="service-name">
+            <a href="#tree"><h2>Tree Surgeon</h2></a>
+          </div>
+        </div>
+        <div class="container1">
+          <div class="si">
+            <div class="so"></div>
+            <img class="service-img" src="media2/pcv.jpg" />
+          </div>
+
+          <div class="text">
+            <h2 class="sh">PVC Cleaning</h2>
+            Removing dirt and grime from your home's PVC can really brighten up
+            your property and improve curb appeal.
+            <button onclick="showModal('pcv')" class="main-btn sv-btn  sv-sm">
+              Learn More
+            </button>
+          </div>
+          <div class="service-name">
+            <a href="#pvc"><h2>PVC Cleaning</h2></a>
+          </div>
+        </div>
+        <div class="container1">
+          <div class="si">
+            <div class="so"></div>
+            <img class="service-img" src="media2/hw.jpeg" />
+          </div>
+
+          <div class="text">
+            <h2 class="sh">House wash</h2>
+            Deep cleaning involves a thorough scrubbing of all surfaces, even
+            hard-to-reach areas.
+
+            <button onclick="showModal('house')" class="main-btn sv-btn  sv-xs">
+              Learn More
+            </button>
+          </div>
+          <div class="service-name">
+            <a href="#wash"><h2>House wash</h2></a>
+          </div>
+        </div>
+        <div class="sv-block" id="block">
+          <div class="sv-block-in">
+            <h2 class="sv-head">Other Services</h2>
+            <p class="sv-txt">
+              Swift Home Maintanence has many more services available. Get in
+              touch with us today to get a full list of what we offer and see
+              how we can help transform your home into something beautiful
+            </p>
+            <button class="main-btn mb modal-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER  -->
+      <footer>
+        <div id="footer-wrap">
+          <div class="footer-content">
+            <div class="foot-head">
+              <h3 class="footer-heading">Menu</h3>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="work.html">Work</a>
+            <a href="services.html">Services</a>
+          </div>
+          <div class="footer-content mobile-hide">
+            <div class="foot-head">
+              <h3 class="footer-heading">Services</h3>
+            </div>
+            <a href="services.html">Landscaping</a>
+            <a href="services.html">Cleaning</a>
+            <a href="services.html">Trimming</a>
+            <a href="services.html">Roof Repairs</a>
+          </div>
+          <div class="footer-content icon-align-left">
+            <div class="foot-head">
+              <h3 class="footer-heading">Contact</h3>
+            </div>
+            <a href="tel:0851404957"><i class="phone icon"></i> Phone</a>
+            <a href="mailto:info@swift.com"
+              ><i class="envelope icon"></i> Email</a
+            >
+            <a href="https://facebook.com"
+              ><i class="facebook icon"></i> Facebook</a
+            >
+            <a href="https://wa.me/+353851404957"
+              ><i class="whatsapp icon"></i> WhatsApp</a
+            >
+          </div>
+          <div class="footer-content-bottom">GroupF © | 2023</div>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

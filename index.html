@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;700&display=swap" rel="stylesheet">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/72e0919d32.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Swift | Home Maintanence</title>
+    <!-- <script type="text/javascript" src="index.js"></script> -->
+  </head>
+  <body>
+    <div class="ui sidebar inverted right vertical menu">
+      <a href="index.html"><img class="logo-menu" src="./media/4.png" /></a>
+      <a class="active item" href="index.html">Home</a>
+      <a class="item" href="about.html">About</a>
+      <a class="item" href="work.html">Work</a>
+      <a class="item" href="services.html">Services</a>
+      <a class="item" href="feedback.html">Testimonials</a>
+      <a class="item" href="contact.html">Contact</a>
+      <a class="menu-item-call" href="tel:0851404957"><button class="phone-menu">Call Us <i class="phone icon"></i></button></a>
+    </div>
+    <div class="pusher">
+      <div class="top-nav">
+        <a href="index.html"
+          ><img class="logo" src="./media/4.png"
+        /></a>
+        <div class="menu-top">
+          <a class="menu-item active" href="index.html">Home</a>
+          <a class="menu-item" href="about.html">About</a>
+          <a class="menu-item" href="work.html">Work</a>
+          <a class="menu-item" href="services.html">Services</a>
+          <a class="menu-item" href="feedback.html">Testimonials</a>
+          <a class="menu-item" href="contact.html">Contact</a>
+          <a class="menu-item-call" href="tel:0851404957"><button onclick="" class="phone-menu nav-call-btn ">Call Us <span class="iphone"><i class="phone icon"></i></span></button></a>
+        </div>
+        <button
+          class="mobile-menu-btn"
+          onclick="$('.ui.sidebar').sidebar('toggle')"
+        >
+          <i class="bars icon"></i>
+        </button>
+      </div>
+      <!-- Site content !-->
+      <div id="banner-wrap">
+        <div class="banner-overlay"></div>
+        <div class="card">
+          <h2 class="card-heading">Swift Home Maintanence</h2>
+          <!-- <div class="ban-right"> -->
+            <p class="card-content">
+              Call us for your free quote today. We quote for any size job, big or
+              small and provide top quality workmanship. Get in touch today to see
+              how we can help make your home perfect.
+            </p>
+            <a href="contact.html"
+              ><button class="phone-menu banner-btn">Get In Touch</button></a
+            >
+          <!-- </div> -->
+         
+        </div>
+      </div>
+      <div id="recycle-banner">
+        <h3 class="recy-ba">
+          <i class="recycle icon"></i> All Of Our Waste Is Shredded & Recycled
+          <i class="recycle icon"></i>
+        </h3>
+      </div>
+      <div class="info-wrap">
+        <div class="section-heading-wrap">
+          <h3 class="section-heading">Our Work</h3>
+        </div>
+        <div class="info-section top-one">
+          <img class="info-image-left info-img" src="./media/landscaper.jpeg" />
+          <div class="info-content-right info-content">
+            <h3 class="info-heading">Maintenance</h3>
+            <p class="info-text">
+              We have a wide range of maintanence and gardening services
+              available from landscaping, rolled grass, edges fencing, tree
+              surgeon and many more. Your home is probably one of the biggest
+              investments you have ever made, so it is very important to protect
+              it. Our maintanence services can really enchance the aesthetics of
+              your home. Get in touch today or click the button below to see how
+              we can help.
+            </p>
+            <a href="work.html"><button class="main-btn">See More</button></a>
+          </div>
+        </div>
+        <div class="info-section info-right">
+          <div class="info-content-left info-content">
+            <h3 class="info-heading">Restoration</h3>
+            <p class="info-text">
+              At Swift Home Maintanence we also provide a wide range of
+              restoration and repair services available from roof cleaning and
+              sealing, roof repairs, ridge tiles repointed, ridge tile
+              replacement, guttering and down pipes, and much more. Our repair
+              and restoration services can really add to the value of your home.
+              Get in touch today or click the button below to see how we can
+              help.
+            </p>
+            <a href="work.html"><button class="main-btn">See More</button></a>
+          </div>
+          <img class="info-image-right info-img" src="./media/roofer.png" />
+        </div>
+      </div>
+      <div id="quote-wrap">
+        <div class="quote-overlay"></div>
+        <div class="quote-content">
+          <a href="tel:085-140-4957">
+            <button id="quote-btn">
+              <h2 class="quote-heading">
+                Call Today For A <span id="free-txt">FREE</span> Quote!
+              </h2>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="services-wrap">
+        <div class="section-heading-wrap">
+          <h3 class="section-heading">Services</h3>
+        </div>
+        <div class="services-content">
+          <div class="services-content-1">
+            <ul>
+              <li class="services-item">Roof Cleaning & Sealing</li>
+              <li class="services-item">Gutter Cleaning</li>
+              <li class="services-item">PVC Cleaning</li>
+              <li class="services-item">House Wash Down</li>
+              <li class="services-item">Driveway Cleaning</li>
+              <li class="services-item">Blockpaving Resand</li>
+            </ul>
+            <ul>
+              <li class="services-item">Roof Repairs</li>
+              <li class="services-item">Ridge Tiles Repointed</li>
+              <li class="services-item">Ridge Tiles Replacement</li>
+              <li class="services-item">Guttering & Down Pipes</li>
+              <li class="services-item">Wall Cleaning</li>
+              <li class="services-item">Tarmac Restoration</li>
+            </ul>
+          </div>
+          <div class="services-content-2">
+            <ul>
+              <li class="services-item">Driveway Sealing</li>
+              <li class="services-item">Garden Clean/Clear</li>
+              <li class="services-item">Tree Felling</li>
+              <li class="services-item">Tree Trimming</li>
+              <li class="services-item">Hedges Cut</li>
+              <li class="services-item">Planting</li>
+            </ul>
+            <ul>
+              <li class="services-item">Landscaping</li>
+              <li class="services-item">Garden Lighting</li>
+              <li class="services-item">Deck Installment</li>
+              <li class="services-item">Guttering & Down Pipes</li>
+              <li class="services-item">Stone/Gravel Chippings</li>
+              <li class="services-item">Railway Sleepers</li>
+            </ul>
+          </div>
+        </div>
+        <a href="services.html"><button class="main-btn">Learn More</button></a>
+      </div>
+      <div class="testimonial-section-wrap">
+        <div class="section-heading-wrap long-wrap">
+          <h3 class="section-heading long">See What Our Customers Say</h3>
+        </div>
+        <section class="slider-wrapper">
+          <div class="slider-overlay"></div>
+          <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+          <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+          <ul class="slides-container" id="slides-container">
+            <li class="slide">
+              <h2 class="testimonial-heading">Fantastic Work!</h2>
+              <p class="testimonial-txt">
+                Swift did fantastic work on my roof. Looks brand new and would
+                highly reccomend swift to anyone lookinf for roof repairs.
+                Absolutely incredible work.
+              </p>
+              <p class="testimonial-txt">
+                <em>David B.</em>
+              </p>
+              <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+            </li>
+            <li class="slide">
+              <h2 class="testimonial-heading">Very professional</h2>
+              <p class="testimonial-txt">
+                I cannot praise them enough! Very professional work done by them
+                and it looks great. They were very kind and walked me through
+                everything step by step.
+              </p>
+              <p class="testimonial-txt">
+                <em>Mary G.</em>
+              </p>
+              <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+            </li>
+            <li class="slide">
+              <h2 class="testimonial-heading">Definitely Reccomend</h2>
+              <p class="testimonial-txt">
+                Very pleased with Swift Home Maintanence. They did an excellent
+                job putting an a new fence and it was painted beautifully. My
+                two grandaughters love playing with the flowers.
+              </p>
+              <p class="testimonial-txt">Louise W.</p>
+              <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+            </li>
+            <li class="slide">
+              <a href="feedback.html">
+                <button class="testimonial-btn">
+                  Check out more testimonials
+                </button>
+              </a>
+              
+            </li>
+          </ul>
+        </section>
+      </div>
+      <footer>
+        <div id="footer-wrap">
+          <div class="footer-content">
+            <div class="foot-head">
+              <h3 class="footer-heading">Menu</h3>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="work.html">Work</a>
+            <a href="services.html">Services</a>
+          </div>
+          <div class="footer-content mobile-hide">
+            <div class="foot-head">
+              <h3 class="footer-heading">Services</h3>
+            </div>
+            <a href="">Landscaping</a>
+            <a href="">Cleaning</a>
+            <a href="">Trimming</a>
+            <a href="">Roof Repairs</a>
+          </div>
+          <div class="footer-content icon-align-left">
+            <div class="foot-head">
+              <h3 class="footer-heading">Contact</h3>
+            </div>
+            <a href="tel:0851404957"><i class="phone icon"></i> Phone</a>
+            <a href="mailto:info@swift.com"
+              ><i class="envelope icon"></i> Email</a
+            >
+            <a href="https://facebook.com"
+              ><i class="facebook icon"></i> Facebook</a
+            >
+            <a href="https://wa.me/+353851404957"
+              ><i class="whatsapp icon"></i> WhatsApp</a
+            >
+          </div>
+          <div class="footer-content-bottom">GroupF © | 2023</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

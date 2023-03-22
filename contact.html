@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Swift | Contact</title>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div class="ui sidebar inverted right vertical menu">
+      <a href="index.html"><img class="logo-menu" src="./media/4.png" /></a>
+      <a class="item" href="index.html">Home</a>
+      <a class="item" href="about.html">About</a>
+      <a class="item" href="work.html">Work</a>
+      <a class="item" href="services.html">Services</a>
+      <a class="item" href="feedback.html">Testimonials</a>
+      <a class="active item" href="contact.html">Contact</a>
+      <a class="menu-item-call" href="tel:0851404957"
+        ><button class="phone-menu">Call Us <i class="phone icon"></i></button
+      ></a>
+    </div>
+    <div class="pusher">
+      <div class="top-nav">
+        <a href="index.html"><img class="logo" src="./media/4.png" /></a>
+        <div class="menu-top">
+          <a class="menu-item" href="index.html">Home</a>
+          <a class="menu-item" href="about.html">About</a>
+          <a class="menu-item" href="work.html">Work</a>
+          <a class="menu-item" href="services.html">Services</a>
+          <a class="menu-item" href="feedback.html">Testimonials</a>
+          <a class="menu-item active" href="contact.html">Contact</a>
+          <a class="menu-item-call" href="tel:0851404957"
+            ><button onclick="" class="phone-menu nav-call-btn">
+              Call Us
+              <span class="iphone"><i class="phone icon"></i></span></button
+          ></a>
+        </div>
+        <button
+          class="mobile-menu-btn"
+          onclick="$('.ui.sidebar').sidebar('toggle')"
+        >
+          <i class="bars icon"></i>
+        </button>
+      </div>
+      <!-- <div class="contact-banner">
+        <div class="contact-overlay"></div>
+        <h2 class="banner-header">Contact Us</h2>
+      </div> -->
+      <div class="form-container">
+        <div class="contact">
+          <!-- INFO -->
+          <div class="contact-container">
+            <div class="contact-container-overlay"></div>
+            <h2 class="banner-header contact-head">Contact Us</h2>
+            <div class="form">
+              <div class="contact-info">
+                <h3 class="title">Our Location</h3>
+                <div class="info">
+                  <div class="information-contact">
+                    <i class="map marker alternate contact-icons icon"></i>
+                    <p>&nbsp; 92 Kildare Street, Ireland, R14XC92</p>
+                  </div>
+                  <iframe
+                    class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.5579871417117!2d-6.918895784168805!3d53.15402687993924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d78d993d39b51%3A0x1c41b501c26d7b8d!2sKildare%20Village!5e0!3m2!1sen!2sie!4v1679514653898!5m2!1sen!2sie"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+
+                <div class="contact-icons-wrap">
+                  <p>Connect with us:</p>
+                  <div class="contact-icons">
+                    <a class="popup" href="" onmouseover="popUp()">
+                      <span class="popuptext" id="myPopup">Comming Soon!</span>
+                      <i
+                        onmouseover="popUp()"
+                        class="facebook icon contact-icon"
+                      ></i>
+                    </a>
+
+                    <a href="https://wa.me/+353851404957">
+                      <i class="whatsapp icon contact-icon"></i>
+                    </a>
+                    <a href="mailto:info@swifthome.com">
+                      <i class="envelope icon contact-icon"></i>
+                    </a>
+                    <a href="tel:0851404957">
+                      <i class="phone icon contact-icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-form">
+                <form action="" id="f" autocomplete="off">
+                  <h3 class="title">Contact us</h3>
+                  <div class="input-container">
+                    <input
+                      type="text"
+                      name="name"
+                      class="input"
+                      placeholder="Name"
+                    />
+                    <span>Username</span>
+                  </div>
+                  <div class="input-container">
+                    <input
+                      type="email"
+                      name="email"
+                      class="input"
+                      placeholder="Email"
+                    />
+                    <span>Email</span>
+                  </div>
+                  <div class="input-container">
+                    <input
+                      type="tel"
+                      name="phone"
+                      class="input"
+                      placeholder="Phone"
+                    />
+                    <span>Phone</span>
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea
+                      name="message"
+                      class="input"
+                      placeholder="Message"
+                    ></textarea>
+                    <span>Message</span>
+                  </div>
+                  <input
+                    type="submit"
+                    value="Send"
+                    onclick="sendSuccess()"
+                    class="form-btn"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- FORM -->
+        </div>
+      </div>
+      <footer>
+        <div id="footer-wrap">
+          <div class="footer-content">
+            <div class="foot-head">
+              <h3 class="footer-heading">Menu</h3>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="work.html">Work</a>
+            <a href="services.html">Services</a>
+          </div>
+          <div class="footer-content mobile-hide">
+            <div class="foot-head">
+              <h3 class="footer-heading">Services</h3>
+            </div>
+            <a href="">Landscaping</a>
+            <a href="">Cleaning</a>
+            <a href="">Trimming</a>
+            <a href="">Roof Repairs</a>
+          </div>
+          <div class="footer-content icon-align-left">
+            <div class="foot-head">
+              <h3 class="footer-heading">Contact</h3>
+            </div>
+            <a href="tel:0851404957"><i class="phone icon"></i> Phone</a>
+            <a href="mailto:info@swift.com"
+              ><i class="envelope icon"></i> Email</a
+            >
+            <a href="https://facebook.com"
+              ><i class="facebook icon"></i> Facebook</a
+            >
+            <a href="https://wa.me/+353851404957"
+              ><i class="whatsapp icon"></i> WhatsApp</a
+            >
+          </div>
+          <div class="footer-content-bottom">GroupF © | 2023</div>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
