@@ -1624,15 +1624,18 @@ font-size: .7em;
 }
 
 .modal-txt {
+  width: 100%;
   display: none;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 .modal-box h2{
-
+ width: fit-content;
   font-size: 1.4em;
   color: #21ba45;
   padding-bottom: 20px;
-  border-bottom: 1px solid #018856;
+  border-bottom: 1px solid #ffffff;
   margin-bottom: 20px;
 
 }
