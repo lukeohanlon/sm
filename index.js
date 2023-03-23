@@ -1,3 +1,4 @@
+
 const slideCont = document.getElementById("slides-container");
 const slide = document.querySelector(".slide");
 const prevButton = document.getElementById("slide-arrow-prev");
@@ -52,6 +53,9 @@ let modalContent = document.getElementById('modal-txt')
 function popUp() {
   var popup = document.getElementById('myPopup')
   popup.classList.toggle('show')
+  setTimeout(() => {
+    popup.classList.toggle('show')
+  },1500)
 }
 
 function circleChange() {
