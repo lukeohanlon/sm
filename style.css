@@ -2122,3 +2122,29 @@ font-size: .7em;
 a {
   -webkit-tap-highlight-color: transparent;
 }
+
+
+.upup {
+  color: #21ba45 !important;
+  border-radius: 50%;
+  background-color: #1f2f44 !important;
+  padding: 5px;
+  position: fixed !important;
+  z-index: 20;
+  bottom: 20px !important;
+  right: 20px !important;
+  font-size: 1.22em;
+  box-shadow: 1px 1px 15px #fff;
+}
+
+
+
+.btnScrollToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  /* border: none; */
+  z-index: 99;
+  display: none;
+}

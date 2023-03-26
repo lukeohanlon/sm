@@ -103,3 +103,22 @@ let closeModal = () => {
 }
 // let modalClose = document.getElementById("modal-icon").addEventListener("click", closeModal())
 
+const btnScrollToTop = document.querySelector(".btnScrollToTop");
+window.onscroll = function() {scrollFunction()};
+
+function scrollToTop(e) {
+  window.addEventListener('scroll', e => {
+    mybutton.style.display = window.scrollY < 20 ? 'flex' : 'none';
+  });
+  }
+  
+btnScrollToTop.addEventListener("click", e => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
+  });
+});
+window.addEventListener('scroll', e => {
+  btnScrollToTop.style.display = window.scrollY > 20 ? 'flex' : 'none';
+});
